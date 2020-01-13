@@ -1,0 +1,15 @@
+#head{
+    color: red;
+    font-size: 100px;
+}
+
+img:hover{
+    background-color: chartreuse;
+}
+
+.avocado{
+    background-color: burlywood;
+}
+.pancake{
+    background-color:green;
+}
