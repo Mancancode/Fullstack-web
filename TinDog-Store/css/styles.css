@@ -1,0 +1,201 @@
+/* Navigation bar*/
+
+
+.container-fluid{
+    padding: 3% 15%;
+    
+}
+a{
+    color:#fff ;
+}
+.navbar{
+    padding:0 0 4.5rem;
+    
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 15px;
+
+}
+
+
+
+/* the html body */
+
+body{
+    font-family: Cantarell, "Montserrat";
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+h2{
+    line-height: 2;
+    font-size: 3rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+
+
+/* title  */
+
+#title{
+    background-color: coral;
+    color: #fff;
+    padding-bottom: 12%;
+}
+
+.title-img{
+    width: 80%;
+    padding:20px 0 0  ;
+    transform: rotate(25deg);
+    position: absolute;
+}
+.btn-download{
+    margin: 5% 3% 0;
+}
+.header-one{
+    line-height: 1.2;
+    font-size: 3rem;
+}
+
+
+/* features */
+
+#features{
+    background-color: snow;
+    padding: 7% 15%  ;
+    position: relative;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.header-feature{
+    font-size: 2.4rem;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align:cente;
+    }
+    .title-img{
+        position: static;
+        transform:rotate(0);
+    }
+}
+
+.icon{
+    color: coral;
+    margin-bottom: 1rem;   
+}
+.icon:hover{
+    color: hotpink;   
+    
+}
+
+
+/* testimonias */
+
+#testimonials{
+    background-color: palevioletred;
+    
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 10px 10px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+/* press */
+
+#press{
+    background-color: palevioletred;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin:20px  20px 50px ;
+}
+
+
+
+ /* Pricing */
+
+#pricing{
+    background-color: whitesmoke;
+    margin: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+/* .header-pricing{
+    font-size: 2.4rem;
+} */
+
+
+
+/* Call to Action */
+
+#cta{
+    background-color: coral;
+    color:#fff ;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+.header-cta{
+    font-size: 3rem;
+}
+
+
+
+/* fotter */
+
+#footer{
+    background-color: snow;
+    color: black;
+    text-align: center;
+    padding: 4% 15%;
+}
+
+.f-icon{
+    margin: 1.5%;
+}
+.f-p{
+    padding-top:2% ;
+}
+
+
+
+
+
+
+
+
+
+
