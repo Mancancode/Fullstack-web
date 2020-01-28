@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #660b12;
 }
 
 h1 {
@@ -71,7 +71,7 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid rgb(150, 66, 146);
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
