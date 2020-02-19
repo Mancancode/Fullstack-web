@@ -51,14 +51,14 @@
     background:linear-gradient(
         rgba(0,0,0,0.50),
      rgba(0,0,0.10)),
-    url(../images/gal12.jpeg);
+    url(../images/gal1.jpg);
 }
 
 .mili-img-2{
     background:linear-gradient(
         rgba(0,0,0,0.50), 
     rgba(0,0,0.10)),
-    url(../images/gal1.jpg);
+    url(../images/gal2.jpg);
 }
 .mili-img-3 { 
     background: 
@@ -67,7 +67,7 @@
          rgba(0, 0, 0, 0.10)
        ),
        /* bottom, image */
-       url(../images/gal1.jpg);
+       url(../images/gal3.jpg);
    }
    
    .mili-img-4 { 
@@ -77,7 +77,7 @@
          rgba(0, 0, 0, 0.10)
        ),
        /* bottom, image */
-       url(../images/gal1.jpg);
+       url(../images/gal4.jpg);
    }
 .mili-info {
 	position: absolute;
