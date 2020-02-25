@@ -1,6 +1,6 @@
 /*Global styling*/
 body {
-    background-color: #f9f9f9;
+    background-color: #635d08;
   }
   a {
     -o-transition: .5s;
@@ -27,13 +27,16 @@ body {
     text-transform: capitalize;
     font-size: 1.875em;
     padding: 0 0 1% 0;
-    color: #001833;
+    color: yellow;
     font-weight: 800;
+  }
+  .hthree{
+      color: black;
   }
 /*Header*/
 
 header {
-    background: linear-gradient( rgba(224, 204, 200, 1.0), rgba(224, 204, 200, 0.90)), /* bottom, image */
+    background: linear-gradient( rgb(10, 10, 9), rgba(12, 12, 10, 0.9)), /* bottom, image */
     url(img/laptop.jpg);
     background-size: cover;
     background-position: center top;
@@ -47,7 +50,7 @@ header {
   .intro h1 {
     font-size: 6em;
     text-align: center;
-    color: #fff;
+    color: rgb(221, 208, 21);
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 800;
@@ -56,7 +59,7 @@ header {
   .intro h2 {
     font-size: 2em;
     text-align: center;
-    color: #fff;
+    color: yellow;
     font-weight: 300;
     text-transform: capitalize;
     letter-spacing: 0.09em;
@@ -78,14 +81,14 @@ header {
     font-style: normal;
     font-weight: 300;
     line-height: 1.8;
-    color: #616569;
+    color: black;
     letter-spacing: .03em;
     margin: 10px auto;
     font-size: 1.5em;
     padding: 2% 0;
   }
   .about p a {
-    color: #E1CCC9;
+    color: yellow;
     border-bottom: 2px solid;
   }
   /*W ork*/
@@ -101,7 +104,7 @@ header {
     float: left;
     text-align: left;
     width: 480px;
-    background-color: #fff;
+    background-color: black;
     height: 100%;
   }
   .text-box-content {
@@ -115,10 +118,10 @@ header {
   }
   .button {
     padding: 5% 3%;
-    border: 3px solid #e0ccc8;
+    border: 3px solid yellow;
     letter-spacing: 0.2em;
     text-decoration: none;
-    color: #e0ccc8;
+    color: yellow;
     text-align: center;
     display: block;
     font-weight: 600;
@@ -126,8 +129,8 @@ header {
     margin-top: 4%;
   }
   .button:hover {
-    color: #fff;
-    background-color: #e0ccc8;
+    color: black;
+    background-color: yellow;
   }
   .image-area {
     width: 480px;
@@ -145,7 +148,7 @@ header {
 
   .contact {
     width: 100%;
-    background-color: #011833;
+    background-color: #01050a;
     padding: 5% 0;
     margin-top: 5%;
     clear: both;
@@ -158,14 +161,15 @@ header {
   .contact-content h4 {
     font-size: 1.875em;
     padding: 1% 0;
-    color: #fff;
+    color: #616569;
     font-weight: 600;
     letter-spacing: 0.04em;
   }
   .contact-content a {
-    color: #E0CCC8;
+    color: yellow;
     text-decoration: none;
   }
+  
 
   /*image divide*/
   .image-divider {
@@ -180,8 +184,8 @@ header {
   /*Footer*/
 
   footer {
-    background-color: #E0CCC8;
-    color: #fff;
+    background-color: black;
+    color: #616569;
     padding: 2% 0;
     width: 100%;
     clear: both;
@@ -195,7 +199,7 @@ header {
     font-style: normal;
     font-weight: 300;
     line-height: 1.4;
-    color: #fff;
+    color: #616569;
     letter-spacing: .03em;
     font-size: 1em;
   }
@@ -209,13 +213,13 @@ header {
     display: inline;
   }
   .social li a {
-    color: #fff;
+    color: #616569;
     padding: 0.2em;
     font-size: 1.8em;
     font-weight: 600;
   }
   .social li a:hover {
-    color: #011833;
+    color: yellow;
   }
 
   /*Media Query*/
