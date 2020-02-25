@@ -37,7 +37,7 @@ body {
 
 header {
     background: linear-gradient( rgb(10, 10, 9), rgba(12, 12, 10, 0.9)), /* bottom, image */
-    url(img/laptop.jpg);
+    url(image/capture.jpg);
     background-size: cover;
     background-position: center top;
     width: 100%;
@@ -173,9 +173,9 @@ header {
 
   /*image divide*/
   .image-divider {
-    padding: 15% 0;
+    padding: 1% 5%;
     background: /* bottom, image */
-    url(images/capture.jpg);
+    url(images/gal.jpg);
     background-size: cover;
     background-position: center top;
   }
