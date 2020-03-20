@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Inside which HTML element do we but the javascript ?",
+        "choice1": "<script>",
+        "choice2": "<javascrips>",
+        "choice3": "<js>",
+        "choice4": "<scriptimg>",
+        "answer": 1
+    
+    
+    },
+    {
+        "question": "What is the correct syntax for referring to external javascript called xxx.js ?",
+        "choice1":"<script href='xxx.js'>",
+        "choice2": "<scrips name='xxx.js'>",
+        "choice3": "<script img ='xxx.js >",
+        "choice4": "<script files ='xxx.js>",
+        "answer": 3
+    
+    
+    },
+    {
+        "question": "how do you write 'Hello world' in the alert box ?",
+        "choice1":"msgBox('Hello world')",
+        "choice2": "alertBox('Hello world')",
+        "choice3": "msg('Hello world')",
+        "choice4": "alert(Hello world)s",
+        "answer":4
+    
+    
+    }
+]

@@ -1,0 +1,121 @@
+:root{
+    background-color: ivory;
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+h1,h2,h3,h4{
+    margin-bottom: 1rem;
+
+}
+h1{
+    margin-bottom: 5rem;
+    font-size: 5.4rem;
+    color: #56a556;
+}
+h1 > span{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 4.7rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* container*/
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.container{
+    width: 100%;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+   
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+/*Button*/
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #56a5eb;
+    background-color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #56a5eb;
+    transform: transform 150px;
+    background-color:#2ecc71 ;
+    color: white;
+   
+}
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+    
+}
+/*Forms*/
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.25s;
+}
+.box input[type ="text"],.box input[name ="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 0px;
+    width: 200px;
+    outline: none;
+    color: #3498db;
+    border-radius: 24px;
+    transition: 0.85s;
+}
+.box input[type ="text"]:focus,.box input[name ="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
