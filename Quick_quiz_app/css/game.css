@@ -14,7 +14,7 @@
     height: 6rem;
     font-size:1.8rem;
     border: 0.1rem solid rgb(86, 165, 245, 0.25);
-    background-color: rgb(243, 239, 239);
+    background-color: #f57b51;
 }
 .choice-container:hover{
     cursor: pointer;
